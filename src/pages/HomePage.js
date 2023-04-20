@@ -1,5 +1,4 @@
 import React from "react";
-import Animation from "../components/Animation/Animation";
 import {
   DescriptionTitle,
   GlobalContainerHome,
