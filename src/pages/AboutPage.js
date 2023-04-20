@@ -1,4 +1,3 @@
-import React, { useState } from "react";
 import PartitcleComponent from "../components/ParticleComponent/PartitcleComponent";
 import BtnBack from "../components/BtnBack";
 import styled from "styled-components";
@@ -90,20 +89,4 @@ const TerminalLineText = styled.span`
 
 const TerminalPrompt = styled.span`
   color: #0f0;
-`;
-
-const TerminalInfo = styled.div`
-  color: #fff;
-  margin-top: 20px;
-  font-size: 16px;
-`;
-
-const TerminalInfoTitle = styled.h2`
-  font-size: 20px;
-  margin: 0;
-  margin-bottom: 10px;
-`;
-
-const TerminalInfoText = styled.p`
-  margin: 0;
 `;

@@ -26,7 +26,7 @@ export const ProfileContainer = styled.div`
     height: auto;
     float: none;
     margin-left:0.1rem ;
-    margin-top:3rem ;
+    margin-top:1rem ;
   }
 `;
 export const Saludo = styled.h3`

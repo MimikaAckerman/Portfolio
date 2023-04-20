@@ -10,7 +10,7 @@ import {
 
 import Style from "../assets/AllStyles/SocialMedia.module.css";
 
-import { Email, Github, LinkedIn } from "../assets/allSvg";
+import { CV, Email, Github, LinkedIn } from "../assets/allSvg";
 import PartitcleComponent from "../components/ParticleComponent/PartitcleComponent";
 import {
   AllLinksPage,
@@ -18,8 +18,10 @@ import {
 } from "../assets/AllStyles/RedirectPageStyled";
 import Me from '../assets/img/profile-img .png'
 import { ProfileImage } from "../assets/AllStyles/ImageProfile";
-
+import Cv from '../assets/data/EmilyHerreraCV.pdf';
 const HomePage = () => {
+
+  
   return (
     <>
       <GlobalContainerHome>
@@ -70,6 +72,16 @@ const HomePage = () => {
                 <div className={Style.card}>📧 Email</div>
               </span>
             </button>
+
+            <button className={Style.btn4} target="_blank">
+      <a href={Cv} target="_blank" rel="noopener noreferrer" download="EmilyHerreraCV.pdf"> 
+      <CV/>
+      </a>
+      <span className={Style.tooltiptext4}>
+                <div className={Style.card}>📄 mi CV</div>
+              </span>
+    </button>
+            
           </div>
 
           <Saludo>Hola! 👋</Saludo>
